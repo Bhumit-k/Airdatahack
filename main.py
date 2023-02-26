@@ -28,7 +28,7 @@ def load_data():
     return df1, df2
 
 
-df_road_data, df_measure_data = load_data()
+df_road_data = load_data()
 
 st.title('Dublin Street Air Quality Measure Web App')
 pages_dict = {"Home": home,
