@@ -37,4 +37,4 @@ pages_dict = {"Home": home,
 st.sidebar.title('Navigation')
 user_choice = st.sidebar.radio('Go To', tuple(pages_dict.keys()))
 selected_page = pages_dict[user_choice]
-selected_page.app(df_road_data, df_measure_data)
+selected_page.app(df_road_data)
