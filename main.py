@@ -21,7 +21,7 @@ def load_data():
 
     df1 = pd.read_csv('Dublin road.csv')
     df1.head()
-    df2 = pd.read_csv('Dublin measure.csv')
+    df2 = pd.read_csv('https://data.smartdublin.ie/dataset/4976e11e-a015-4ef9-9179-dc7c27fb5a81/resource/a58428ad-3815-4454-82a4-c0e98aca3844/download/airview_dublincity_measurements_ugm3_csv.zip')
     df2.head()
     # Rename the column names in the DataFrame.
 
